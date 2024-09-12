@@ -36,7 +36,7 @@ owner = Имя пользователя GitHub
 
 2 - Перейдите в директорию проекта, если вы еще не там
 
-3 - Запустите тесты с помощью команды pytest
+3 - Запустите тесты с помощью команды: pytest
 
 
 ##### Переменные окружения
@@ -44,6 +44,6 @@ owner = Имя пользователя GitHub
 
 GITHUB_TOKEN: Ваш токен доступа к GitHub API.
 
-GITHUB_API_URL: URL для работы с GitHub API (по умолчанию https://api.github.com).
+GITHUB_API_URL: https://api.github.com
 
 owner: Имя пользователя GitHub.
