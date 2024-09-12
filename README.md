@@ -25,11 +25,11 @@ pip install -r requirements.txt
 #### Использование
 Создайте файл .env в корне проекта и добавьте в него следующие переменные окружения:
 
-GITHUB_TOKEN=your_github_token
+GITHUB_TOKEN = Ваш токен доступа к GitHub API
 
-GITHUB_API_URL=https://api.github.com
+GITHUB_API_URL = https://api.github.com
 
-owner=your_github_username
+owner = Имя пользователя GitHub
 
 ##### Запустите тесты:
 1 - Откройте терминал или командную строку
@@ -39,7 +39,7 @@ owner=your_github_username
 3 - Запустите тесты с помощью команды pytest
 
 
-Переменные окружения
+##### Переменные окружения
 Для корректной работы тестов необходимо настроить следующие переменные окружения:
 
 GITHUB_TOKEN: Ваш токен доступа к GitHub API.
