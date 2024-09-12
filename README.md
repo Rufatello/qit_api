@@ -43,7 +43,3 @@ owner = Имя пользователя GitHub
 Для корректной работы тестов необходимо настроить следующие переменные окружения:
 
 GITHUB_TOKEN: Ваш токен доступа к GitHub API.
-
-GITHUB_API_URL: https://api.github.com
-
-owner: Имя пользователя GitHub.
