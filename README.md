@@ -1,4 +1,4 @@
-#Тестирование GitHub API с использованием PyTest
+# Тестирование GitHub API с использованием PyTest
 
 
 Этот проект содержит набор тестов для взаимодействия с GitHub API с использованием PyTest. Тесты охватывают создание, проверку, поиск и удаление репозитория на GitHub.
@@ -25,9 +25,9 @@ pip install -r requirements.txt
 #### Использование
 Создайте файл .env в корне проекта и добавьте в него следующие переменные окружения:
 
-GITHUB_TOKEN=your_github_token
-GITHUB_API_URL=https://api.github.com
-owner=your_github_username
+*** GITHUB_TOKEN=your_github_token
+*** GITHUB_API_URL=https://api.github.com
+*** owner=your_github_username
 
 ##### Запустите тесты:
 1 - Откройте терминал или командную строку.
